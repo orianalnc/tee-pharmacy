@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tee Pharmacy</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+
+
+</head>
+<body>
+
+<div class="row">
+
+    <div class="col l2 m2 ">
+        <ul id="slide-out" class="side-nav fixed">
+            <li><a href="#!">Home</a></li>
+            <li><a href="#!">Prescription</a></li>
+            <li><a href="#!">Prescription</a></li>
+            <li><a href="#!">Prescription</a></li>
+            <li><a href="#!">Prescription</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
+    </div>
+
+
+
+        <div class="col l10 m10">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur eligendi minima possimus quod sint tenetur? Aliquam amet assumenda debitis eius nobis optio perspiciatis. Dolor mollitia nesciunt quas quod repellat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur autem cumque dolore doloremque enim et eveniet, facere hic iste maiores, possimus provident quae quaerat quam tempora, tempore ut voluptate?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fugiat non porro quibusdam. Aliquam assumenda, cum explicabo incidunt magnam repellat suscipit! Accusamus cupiditate enim error, explicabo molestias perspiciatis quae reprehenderit.</p>
+
+        </div>
+
+</div>
+
+
+
+
+    <!--Inicializando funciones-->
+
+
+
+    <script>
+        $(document).ready(function(){
+            $('.materialboxed').materialbox();
+            $(".button-collapse").sideNav();
+            $('.button-collapse').sideNav({
+                menuWidth: 300, // Default is 300
+                edge: 'right', // Choose the horizontal origin
+                closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                draggable: true, // Choose whether you can drag to open on touch screens,
+                onOpen: function(el) { /* Do Stuff* / }, // A function to be called when sideNav is opened
+              onClose: function(el) { /* Do Stuff* / }, // A function to be called when sideNav is closed
+            });
+
+        });
+
+
+
+    </script>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
