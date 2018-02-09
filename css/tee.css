@@ -1,4 +1,8 @@
 
+
+body{
+    font-family: 'Acme', sans-serif;
+ }
 .container-v {
     display: flex;
     flex-direction: row;
@@ -60,3 +64,44 @@
     height: 54px;
     line-height: 2.5;
     font-size: 22px;
+
+}
+
+.box-contac{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 50%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.box-publi{
+    background-color: rgba(109, 109, 109, 0.4);
+     padding: 20px;
+    
+}
+
+.box-contac textarea.materialize-textarea{
+    padding: 0 !important;
+}
+
+.about-service{
+    
+    padding: 40px;
+    background: linear-gradient(289, 80, 50);
+}
+
+.about{
+    width:100%;
+    height:150px;
+    background-color: #00a54f;
+}
+ .about-header{
+    background-image: url(img/header-bgtop2.png);
+ }
+
+ #contact .p-contac{
+     height: 100px !important;
+     padding: 20px;
+ }
