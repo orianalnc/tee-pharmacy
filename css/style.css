@@ -93,3 +93,7 @@
     height: 2px;
 }
 
+.gradient{
+    background: linear-gradient(to right, rgba(122,140,58,1) 0%, rgba(175,201,70,1) 50%, rgba(180,201,110,1) 100%);
+}
+
