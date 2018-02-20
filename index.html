@@ -10,7 +10,7 @@
     <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/tee.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
   <link rel="stylesheet" href="css/animate.css">
 
   
@@ -52,23 +52,20 @@
     <section >
 
        <div class="row">
-            <div class="col  m6 l6 s6 ">
+            <div class="col  m4 l4 s12 ">
 
                 <i class="material-icons">access_time</i>
               <span> Hours of Operation:
-                   <i class="material-icons">open</i> Mon - Fri: 9- 5pm
-                   <i class="material-icons">open</i> Closed: Sat- Sun
-
-
+                 <div><i class="material-icons">open</i> Mon - Fri: 9- 5pm </div>  
+                 <div> <i class="material-icons">open</i> Closed: Sat- Sun</div>  
 
               </span>
-
-                   
-
-
+            </div>
+            <div class="col m4 l4 s12">
+                   <a href="#contact" class="modal-trigger"><h5 class=" text-green">Contact Our Pharmacist</h5></a>     
             </div>
 
-            <div class="col m6 l6 s6">
+            <div class="col m4 l4 s12">
                <div class="right">
                     <i class="material-icons">phone</i>
                     <span>1 - (508) 555 55</span>
@@ -83,10 +80,44 @@
 
         </div>
 
-        <div class="carousel carousel-slider center" data-indicators="true">
-                <div class="carousel-fixed-item center">
 
-                    <div class="box-contac ">
+        <div class="slider ">
+                <ul class="slides">
+                    <li>
+                        <img src="img/5.jpg"> <!-- random image -->
+                        <div class="caption left-align ">
+                                <!-- <h4 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                            -->
+                                
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/2.jpg"> <!-- random image -->
+                        <div class="caption left-align ">
+                                <!-- <h4 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                -->
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/5.jpg"> <!-- random image -->
+                        <div class="caption left-align ">
+                                <!-- <h4 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4> -->
+                           
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/2.jpg"> <!-- random image -->
+                        <div class="caption left-align">
+                                <!-- <h4 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4> -->
+                                
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+   
+
+                    <!-- <div class="box-contac ">
                         	<div class=" container">
                                     <h4 class=" text-green">Contact Our Pharmacist</h4>
                                     <form action="" class="">
@@ -126,7 +157,7 @@
                 
                                 </div>
 
-                    </div>
+                    </div> -->
                         <!-- <div class="row container">
                                 <div class="col m4 l4 s12">
                                     <a href=""> <div class="btn btn-btn verde-light " >
@@ -151,24 +182,7 @@
                                        </div>
                             </div> -->
                   
-                </div>
-                <div class="carousel-item red white-text" href="#one!">
-                        <img src="img/1.jpg"> 
-                  
-                </div>
-                <div class="carousel-item amber white-text" href="#two!">
-                        <img src="img/4.jpg">
-                 
-                </div>
-                <div class="carousel-item green white-text" href="#three!">
-                     <img src="img/2.jpg">
-                  
-                </div>
-                <div class="carousel-item blue white-text" href="#four!">
-                 <img src="img/3.jpg">    
-                 
-                </div>
-              </div>
+              
                     
     </section>
 
@@ -325,26 +339,53 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        Develope by <a class="brown-text text-lighten-3" href="http://qubitmarketing.com">QubitMarketing</a>
+        Develope by <a class="brown-text text-lighten-3" href="http://qubitmarketing.com">QubitMarketing</a> | Orianalnc94@gmail.com
       </div>
     </div>
   </footer>
 </div>
 
 
-<!--  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>-->
+<div id="contact" class="modal">
+        <div class="modal-content">
+             <div class="center"><h4 class=" text-green">Contact Our Pharmacist</h4></div>   
+             <div class="box-contac ">
+                            <form action="" class="">
+                                <div class="row ">
+                                    <div class="col m6">
+                                        <label for=""> Name</label>
+                                        <input type="text" class="input" >
+                                    </div>
+        
+                                    <div class=" col m6">
+                                        <label for=""> E-mail</label>
+                                        <input type="text" class="input" >
+        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class=" col m6">
+                                        <label for=""> Phone Number</label>
+                                        <input type="text" class="input" >
+                                    </div>
+        
+                                    <div class=" col m6">
+                                        <label for="">Message</label>
+                                        <textarea class="materialize-textarea" name="menssages" id="" cols="1" rows="2"></textarea>
+        
+                                    </div>
+                                </div>
+                                   
+                                   
+                                
+                            </form>
+            </div> 
+        </div>
+        <div class="modal-footer">
+            <a href="" class="btn c-green" >Contact Our Pharmacist</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Closed</a>
+        </div>
+      </div>
 
 
 
