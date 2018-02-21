@@ -107,10 +107,98 @@ body{
  }
 
 
- .slider{
-    height: 640px !important;
- }
+/*   HEADER   */
+.header{
+    position: relative;
+    z-index: 999;
+    width: 100%;
+  }
+  .logo{
+    width: 80px;
+    
+  }
 
- .slider .slides{
-     height: 600px !important;
- }
+   .logo-tee{
+    width: 150px;
+    position: relative;
+    top: 8vh;
+    left: 45vw;
+  }
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+    line-height: 86px !important;
+    height: 86px !important;
+  }
+  
+
+  nav ul li a:hover{
+    transition-property: border;
+    transition: ease-in .2s;
+    transition-delay: .1s;
+  
+  }
+  
+  nav ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+  }
+ 
+  a{
+      color: #a4aeb3;
+  }
+
+ 
+
+ /* SLIDER*/
+ #index .slider .indicators .indicator-item{
+    background-color: rgba(255, 255, 255,0.26) !important;
+    width: 26px !important;
+    height: 26px !important;
+
+  }
+
+   .slider .indicators .indicator-item.active{
+    background-color: #00a54f !important;
+    border: 2px solid;
+    border-color: rgba(255, 255, 255,0.26) !important;
+
+  }
+
+  .slider .slides li .caption{
+    top: 40% !important;
+  }
+
+  .slider div a:hover{
+    color: #00a54f !important;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #index .slider .slides li img{
+   
+  }
+  .slider .btn{
+    background-color: #00a54f !important ;
+  }
+  
+  .btn:hover{
+ 
+    border: 2px solid #ffffff !important;
+    background-color: #ffffff !important;
+    color: #00a54f !important;
+    font-weight: bold;
+
+  }
+
+  .top{
+    position: relative;
+    top: 1vh;
+  }
+
+  .footer-page{
+      top: 100vh;
+      position: relative;
+  }
+  .line{
+      height: 1px;
+      background-color: #a4aeb3; 
+      position: relative;
+      top: 1.5vh;
+  }
