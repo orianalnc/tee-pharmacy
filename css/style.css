@@ -1,7 +1,7 @@
 
 
 body{
-    font-family: 'Acme', sans-serif;
+    font-family: 'Roboto Slab', serif;
  }
 .container-v {
     display: flex;
@@ -102,8 +102,8 @@ body{
  }
 
  #contact .p-contac{
-     height: 100px !important;
-     padding: 20px;
+     height: 150px !important;
+     padding: 30px;
  }
 
 
@@ -130,15 +130,15 @@ body{
   }
   
 
-  nav ul li a:hover{
+ ul .side-nav li a:hover{
     transition-property: border;
-    transition: ease-in .2s;
-    transition-delay: .1s;
+    transition: ease-in .4s;
+    transition-delay: .2s;
   
   }
   
-  nav ul li a:hover{
-    border-bottom: 2px solid #ffffff;
+  ul .side-nav li a:hover{
+    border-bottom: 2px solid #0ccc82;
   }
  
   a{
@@ -155,14 +155,14 @@ body{
 
   }
 
-   .slider .indicators .indicator-item.active{
+  #index .slider .indicators .indicator-item.active{
     background-color: #00a54f !important;
     border: 2px solid;
     border-color: rgba(255, 255, 255,0.26) !important;
 
   }
 
-  .slider .slides li .caption{
+ #index .slider .slides li .caption{
     top: 40% !important;
   }
 
@@ -171,9 +171,9 @@ body{
     font-weight: bold;
     font-size: 16px;
   }
-  #index .slider .slides li img{
+  /* #index .slider .slides li img{
    
-  }
+  } */
   .slider .btn{
     background-color: #00a54f !important ;
   }
@@ -202,3 +202,87 @@ body{
       position: relative;
       top: 1.5vh;
   }
+
+  #publi .slider .slides {
+    height: 200px !important;
+    background-color: transparent !important;
+  }
+  #publi .slider .slides div {
+    font-family: 'Lobster Two', cursive;
+    color: #00a54f !important;
+  }
+
+  #publi .slides img{
+       display: none
+}
+#publi .side-nav {
+    overflow: hidden !important;
+}
+#publi .side-nav li.active{
+    background-color: transparent;
+}
+
+#publi .slider{
+    height: 240px !important;
+}
+
+#publi .slider .indicators .indicator-item{
+    background-color: #00a54f !important;
+    width: 16px !important;
+    height: 16px !important;
+
+  }
+
+  #publi .slider .indicators .indicator-item.active{
+    background-color: #00a54f !important;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255) !important;
+
+  }
+
+.italic{
+    font-style: italic;
+}
+
+.collapse-icon{
+    font-size: 50px;
+    top: 2vh;
+    position: relative;
+    color: #00a54f;
+}
+
+
+.social-header{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #00a54f;
+    color: #fff;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  INPUT */
+
+input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea{
+    border-bottom: 2px solid #565756;
+}
+
+input:not([type]):focus:not([readonly]), input[type="text"]:not(.browser-default):focus:not([readonly]), input[type="password"]:not(.browser-default):focus:not([readonly]), input[type="email"]:not(.browser-default):focus:not([readonly]), input[type="url"]:not(.browser-default):focus:not([readonly]), input[type="time"]:not(.browser-default):focus:not([readonly]), input[type="date"]:not(.browser-default):focus:not([readonly]), input[type="datetime"]:not(.browser-default):focus:not([readonly]), input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), input[type="tel"]:not(.browser-default):focus:not([readonly]), input[type="number"]:not(.browser-default):focus:not([readonly]), input[type="search"]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border: 2px solid #00a54f;
+    border-radius:4px; 
+}
+
+.input-field label{
+    color: #565756;
+
+}
+
+.input-field.col label{
+
+}
+
+/* MEnu */
