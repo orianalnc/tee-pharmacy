@@ -3,6 +3,29 @@
 body{
     font-family: 'Roboto Slab', serif;
  }
+
+ .service-conta{
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .contac{
+     background-color: #00a54f;
+     color: #ffffff;
+     padding: 30px;
+     height: 300px;
+
+ }
+ #about i.material-icons{
+     font-size: 40px;
+ }
+
+ .padding{
+     padding: 45px;
+ }
+
+
 .container-v {
     display: flex;
     flex-direction: row;
@@ -109,8 +132,6 @@ body{
 
 /*   HEADER   */
 .header{
-    position: relative;
-    z-index: 999;
     width: 100%;
   }
   .logo{
