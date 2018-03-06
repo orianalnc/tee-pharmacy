@@ -15,6 +15,7 @@ body{
      color: #ffffff;
      padding: 30px;
      height: 300px;
+     margin-bottom: 15px
 
  }
  #about i.material-icons{
@@ -306,4 +307,9 @@ input:not([type]):focus:not([readonly]), input[type="text"]:not(.browser-default
 
 }
 
-/* MEnu */
+
+@media (max-width: 768px){
+    footer{
+        text-align: center;
+    }
+}
